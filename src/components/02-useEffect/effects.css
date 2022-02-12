@@ -1,0 +1,13 @@
+body{
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+.blockquote{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+}

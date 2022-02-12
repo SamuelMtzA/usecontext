@@ -1,0 +1,36 @@
+body{
+    background: #5c2727;
+    padding: 50px;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+}
+input .inp-chck{
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: #5c2727 1px 1px;
+    cursor: pointer;
+}
+
+.list-group-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.complete{
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    color: #fff;
+}
+button:focus{
+    outline: invert;
+}
+

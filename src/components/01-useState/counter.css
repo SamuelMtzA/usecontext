@@ -1,0 +1,7 @@
+body{
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 70px; 
+}
