@@ -3,8 +3,13 @@ import { UserContext } from './UseContext';
 
 export const LoginScreen = () => {
   const {setUser} = useContext(UserContext);
-
-
+  const handleClick = () => {
+    setUser({
+      name: 'John',
+      age: 30,
+      id: 1
+    })
+  }
 
   return (
     <div>
@@ -12,12 +17,7 @@ export const LoginScreen = () => {
         <hr/>
         <button
         className={" btn-primary"}
-        onClick={() => setUser({
-          name: 'John',
-          age: 30,
-          id: 1
-        })
-        }
+        onClick={handleClick}
         >Login</button>
     </div>
   )
